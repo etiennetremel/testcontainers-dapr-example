@@ -1,7 +1,8 @@
-# Integration testing using Testcontainers for Dapr based applications
+# Integration testing in a Dapr based architecture with Testcontainers and Podman
 
-> This repository provide an example of running integration test against
-> microservices using [Testcontainers][testcontainers] and [Dapr][dapr].
+> This repository provide an example of running integration test in a
+> [Dapr][dapr] based architecture using [Testcontainers][testcontainers] and
+> [Podman][podman].
 
 ## Overview
 
@@ -43,3 +44,4 @@ go test -v ./...
 <!-- links -->
 [dapr]: https://dapr.io
 [testcontainers]: https://testcontainers.com/
+[podman]: https://podman.io/
